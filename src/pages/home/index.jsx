@@ -10,6 +10,7 @@ import ProductSlider from '../../components/ProductSlider';
 import AddressBanner from '../../components/BannerBox/AddressBanner';
 import BlogItem from '../../components/BlogItem';
 import Footer from '../../components/Footer';
+import Testimony from '../../components/Testimonials';
 
 const Home = () => {
   const [value, setValue] = useState(0);
@@ -144,6 +145,8 @@ const Home = () => {
           <BlogItem/>
         </div>
       </section>
+
+      <Testimony/>
 
       <Footer/>
     </div>

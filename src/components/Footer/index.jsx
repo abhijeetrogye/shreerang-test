@@ -139,7 +139,7 @@ const Footer = () => {
         <hr className="border-neutral-200" />
 
         {/* ✅ Main Footer Content with Vertical Dividers */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 py-8">
           {/* Column 1 */}
           <div className="md:col-span-2 lg:col-span-2 border-r border-neutral-200 pr-6">
             <div className="bg-white border border-neutral-200 shadow-sm rounded-xl p-6 h-full">
